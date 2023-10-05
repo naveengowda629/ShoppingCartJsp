@@ -8,8 +8,11 @@ public class Hello {
 		int []temp=new int[arr.length];
 		for(int i=0;i<arr.length-1;i++) {
 			for(int j=1;j<i+1;j++) {
-				if(arr[i]!=arr[j]) {
-					System.out.println(arr[i]);
+				if(arr[i]!=arr[j] ) {
+					System.out.println(arr[j]);
+				}
+				else if(arr[i]==arr[j]){
+					System.out.println(arr[j]);
 				}
 			}
 		}
